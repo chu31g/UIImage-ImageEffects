@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author       = { "Apple" }
+  s.author       = { "Apple, Inc." => "*@apple.com"}
 
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = 'UIImage+ImageEffects.{h,m}'
 
   s.requires_arc = true
-  
+
 end
