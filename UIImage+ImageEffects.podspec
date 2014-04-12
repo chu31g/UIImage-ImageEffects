@@ -7,8 +7,6 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author       = { "Apple, Inc." => "*@apple.com"}
-
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
 
